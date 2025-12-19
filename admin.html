@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">Real Trust</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="admin.html" class="admin-link">Admin Panel</a></li>
+  </ul>
+</nav>
+
+<section class="admin">
+  <h2>Add Project</h2>
+  <input id="pname" placeholder="Project Name">
+  <input id="pdesc" placeholder="Description">
+  <input id="pimg" placeholder="Image URL">
+  <button onclick="addProject()">Add Project</button>
+
+  <h2>Add Client</h2>
+  <input id="cname" placeholder="Client Name">
+  <input id="cdesc" placeholder="Feedback">
+  <input id="cimg" placeholder="Image URL">
+  <button onclick="addClient()">Add Client</button>
+</section>
+
+<script src="admin.js"></script>
+</body>
+</html>

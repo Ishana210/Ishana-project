@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">Real Trust</div>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#clients">Clients</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="admin.html" class="admin-link">Admin</a></li>
+  </ul>
+
+  <button class="nav-btn" onclick="document.getElementById('consultation').scrollIntoView({behavior:'smooth'})">
+  Get Consultation
+</button>
+</nav>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Consultation, Design & Marketing</h1>
+    <p>We build amazing digital products</p>
+  </div>
+  <div class="hero-form" id="consultation">
+  <h3>Get Free Consultation</h3>
+  <input placeholder="Name">
+  <input placeholder="Email">
+  <input placeholder="Phone">
+  <button>Submit</button>
+</div>
+</section>
+
+<section>
+  <h2>Our Projects</h2>
+  <div id="projects" class="grid"></div>
+</section>
+
+<section>
+  <h2>Happy Clients</h2>
+  <div id="clients" class="grid"></div>
+</section>
+
+<footer>
+  © 2025 Real Trust
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

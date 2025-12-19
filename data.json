@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "name": "Zaika Restaurant",
+      "description": "Designed and developed Zaika, a fully responsive and interactive restaurant ordering platform built with HTML, CSS, and JavaScript for the front-end interface, seamlessly integrated with a Python Flask backend. Engineered dynamic menu rendering with real-time order submission and confirmation, while implementing automated order logging into Excel using OpenPyXL for easy tracking and management without the need for a traditional database. Focused on delivering a visually appealing, user-friendly, and mobile optimized interface, incorporating responsive layouts, engaging visuals, and smooth navigation to enhance the overall customer experience. Implemented efficient backend routing, structured JSON data exchange between client and server, and robust error handling to ensure smooth, reliable order processing",
+      "image": "http://127.0.0.1:5000/static/images/project1.jpg"
+    },
+    {
+      "name": "Zaika Restaurant",
+      "description": "Designed and developed Zaika, a fully responsive and interactive restaurant ordering platform built with HTML, CSS, and JavaScript for the front-end interface, seamlessly integrated with a Python Flask backend. Engineered dynamic menu rendering with real-time order submission and confirmation, while implementing automated order logging into Excel using OpenPyXL for easy tracking and management without the need for a traditional database. Focused on delivering a visually appealing, user-friendly, and mobile optimized interface, incorporating responsive layouts, engaging visuals, and smooth navigation to enhance the overall customer experience. Implemented efficient backend routing, structured JSON data exchange between client and server, and robust error handling to ensure smooth, reliable order processing",
+      "image": "http://127.0.0.1:5000/static/images/project1.jpg"
+    },
+    {
+      "name": "Zaika Restuarant",
+      "description": "Designed and developed Zaika, a fully responsive and interactive restaurant ordering platform built with HTML, CSS, and JavaScript for the front-end interface, seamlessly integrated with a Python Flask backend. Engineered dynamic menu rendering with real-time order submission and confirmation, while implementing automated order logging into Excel using OpenPyXL for easy tracking and management without the need for a traditional database. Focused on delivering a visually appealing, user-friendly, and mobile optimized interface, incorporating responsive layouts, engaging visuals, and smooth navigation to enhance the overall customer experience. Implemented efficient backend routing, structured JSON data exchange between client and server, and robust error handling to ensure smooth, reliable order processing",
+      "image": "http://127.0.0.1:5000/static/images/project1.jpg"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Ananya Rao",
+      "description": "The Zaika restaurant ordering platform exceeded our expectations in both functionality and design. The application is visually appealing, fast, and works smoothly across mobile and desktop devices. The dynamic menu and real-time order confirmation significantly improved our order handling process. We especially appreciated the Excel-based order tracking system, which made managing orders simple without needing a complex database. The backend integration with Flask is reliable, and the overall system is well-structured and easy to use. A highly professional and well-executed project.”",
+      "image": "resized_photo_2"
+    },
+    {
+      "name": "Ananya Rao",
+      "description": "The Zaika restaurant ordering platform exceeded our expectations in both functionality and design. The application is visually appealing, fast, and works smoothly across mobile and desktop devices. The dynamic menu and real-time order confirmation significantly improved our order handling process. We especially appreciated the Excel-based order tracking system, which made managing orders simple without needing a complex database. The backend integration with Flask is reliable, and the overall system is well-structured and easy to use. A highly professional and well-executed project.”",
+      "image": "resized_photo_2"
+    }
+  ]
+}

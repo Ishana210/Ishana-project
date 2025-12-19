@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #0d6efd;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.admin-link {
+  background: white;
+  color: #0d6efd !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-btn {
+  background: white;
+  color: #0d6efd;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background: white;
+}
+
+.hero-form {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* ADMIN */
+.admin {
+  padding: 30px;
+}
+
+.admin input {
+  display: block;
+  width: 300px;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.admin button {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
